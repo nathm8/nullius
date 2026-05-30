@@ -904,7 +904,7 @@ for _,shortcut in pairs(data.raw.shortcut) do
       (shortcut.technology_to_unlock == "personal-roboport-equipment")) then
     shortcut.technology_to_unlock = nil
   elseif (shortcut.technology_to_unlock == "exoskeleton-equipment") then
-    shortcut.technology_to_unlock = "nullius-cybernetics-4"
+    shortcut.technology_to_unlock = "nullius-locomotion-1"
   end
 end
 
